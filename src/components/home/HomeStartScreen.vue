@@ -62,7 +62,7 @@
           outlined
           class="ml-0"
           dark
-        >Learn More</v-btn>
+        >Saber mas</v-btn>
       </v-col>
     </v-row>
   </v-container>
