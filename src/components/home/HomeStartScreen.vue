@@ -3,8 +3,8 @@
     <v-row align="center" class="fill-height">
       <v-col md="3" sm="6" cols="12" class>
         <v-img
-          :src="checkExistance(config.generalConfig.homeImage,0)?config.generalConfig.homeImage:require('@/assets/img/svg/home.svg')"
-          :lazy-src="checkExistance(config.generalConfig.homeImage,0)?config.generalConfig.homeImage:require('@/assets/img/svg/home.svg')"
+          :src="checkExistance(config.generalConfig.homeImage,0)?config.generalConfig.homeImage:require('@/assets/img/dontremove/sip.jpg')"
+          :lazy-src="checkExistance(config.generalConfig.homeImage,0)?config.generalConfig.homeImage:require('@/assets/img/dontremove/sip.jpg')"
           width="100%"
         >
           <template v-slot:placeholder>
@@ -21,12 +21,13 @@
           style="font-weight: 350;font-size:230%"
         >
           <b>
-            Asistente de Voz
-            <span style="color: #1a73e8;">together</span>.
+            Asistente de
+            <span style="color: #1a73e8;">VOZ</span>.
           </b>
         </p>
-        <p class="google-font mt-0 mb-0" style="font-size:150%">{{config.generalConfig.name}}</p>
-        <p class="google-font" style="font-size:100%">{{config.generalConfig.shortDescription}}</p>
+        <p class="google-font mt-0 mb-0" style="font-size:150%">Voz</p>
+        <p class="google-font" style="font-size:100%">Los asistentes de voz son programas de software basados en la inteligencia
+           artificial que son capaces de reconocer el lenguaje con una elevada precisión.</p>
         <p class="google-font" style="font-size:100%;color:#9e9e9e">
           <span v-for="(item,i) in config.generalConfig.hashtags" :key="i">
             <v-chip
