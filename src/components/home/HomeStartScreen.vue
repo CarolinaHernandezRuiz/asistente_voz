@@ -30,13 +30,7 @@
            artificial que son capaces de reconocer el lenguaje con una elevada precisión.</p>
         <p class="google-font" style="font-size:100%;color:#9e9e9e">
           <span v-for="(item,i) in config.generalConfig.hashtags" :key="i">
-            <v-chip
-              :href="'https://twitter.com/hashtag/'+item"
-              rel="noreferrer"
-              target="_blank"
-              small
-              class="mr-1"
-            >#{{item}}</v-chip>
+            
             <!-- &nbsp; -->
           </span>
         </p>

@@ -4,11 +4,11 @@
       <v-col cols="12" md="12" lg="12" sm="12" class="pa-0" style="color:white">
         <div class="ma-1">
           <div class="pa-5">
-            <p class="google-font mb-0" style="font-size:150%">Sobre {{config.generalConfig.name}}</p>
+            <p class="google-font mb-0" style="font-size:150%">Sobre</p>
             <p
               class="google-font mt-0"
               style="font-size:95%"
-            ></p>
+            >Es una empresa</p>
             <v-btn
               v-if="checkExistance(config.generalConfig.meetupLink,0)"
               :href="config.generalConfig.meetupLink"
