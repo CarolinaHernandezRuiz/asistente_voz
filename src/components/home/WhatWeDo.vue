@@ -2,12 +2,15 @@
   <v-container fluid>
     <v-row align="center" justify="center">
       <v-col cols="12" md="3" lg="3" sm="4" class>
-        <p class="google-font mb-0" style="font-size:150%">What we do?</p>
+        <p class="google-font mb-0" style="font-size:150%">Que hace un asistente de voz?</p>
         <p
           class="google-font mt-0"
           style="font-size:95%"
-        >Google Developer Groups (GDGs) are for developers who are interested in Google's developer technology.</p>
-        <p class="google-font" style="font-size:95%">About different Google technologies</p>
+        >La búsqueda por voz y los altavoces inteligentes son tecnología que permite a los usuarios 
+        realizar una búsqueda en Internet al formular una pregunta verbalmente en un teléfono inteligente, 
+        dispositivo inteligente o computadora en lugar de utilizar el método tradicional de escribir la consulta 
+        en un cuadro de búsqueda. Una consulta es respondida por un motor de búsqueda o un asistente digital.</p>
+        <p class="google-font" style="font-size:95%">Acerca de una de las Aplic. mas conocidas.</p>
         <span v-for="(item,i) in whatwedodata" :key="i">
           <v-tooltip bottom>
             <template v-slot:activator="{ on }">
@@ -62,21 +65,3 @@
   </v-container>
 </template>
 
-<script>
-import whatwedodata from "@/assets/data/whatwedo.json";
-export default {
-  name: "App",
-  data: () => ({
-    whatwedodata: whatwedodata
-  }),
-  methods: {
-    getImgUrl(url) {
-      if (url.length > 0) {
-        return require("@/assets/img/what-we-do/" + url);
-      } else {
-        return require("@/assets/img/what-we-do/notFound.png");
-      }
-    }
-  }
-};
-</script>
