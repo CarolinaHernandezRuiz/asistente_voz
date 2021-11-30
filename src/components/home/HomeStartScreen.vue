@@ -25,7 +25,7 @@
             <span style="color: #1a73e8;">VOZ</span>.
           </b>
         </p>
-        <p class="google-font mt-0 mb-0" style="font-size:150%">Voz</p>
+        <p class="google-font mt-0 mb-0" style="font-size:150%">VOZ</p>
         <p class="google-font" style="font-size:100%">Los asistentes de voz son programas de software basados en la inteligencia
            artificial que son capaces de reconocer el lenguaje con una elevada precisión.</p>
         <p class="google-font" style="font-size:100%;color:#9e9e9e">
@@ -37,13 +37,13 @@
 
         <v-btn
           v-if="checkExistance(config.generalConfig.becomemember,0)"
-          :href="config.generalConfig.becomemember"
+          :href="config.generalConfig.learnMoreLink"
           target="_blank"
           rel="noreferrer"
           aria-label="Become a Member"
           class="ma-0 google-font elevation-1 primary mr-2"
           style="text-transform: capitalize;border-radius:5px;color:white"
-        >Become a Member</v-btn>
+        >Ser miembro</v-btn>
         <v-btn
           v-if="checkExistance(config.generalConfig.learnMoreLink,0)"
           :href="config.generalConfig.learnMoreLink"
