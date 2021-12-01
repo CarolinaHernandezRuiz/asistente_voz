@@ -30,7 +30,7 @@
         style="text-decoration:none;font-size:110%"
         :class="this.$vuetify.theme.dark?'whiteText':'blackText'"
       >
-      {{config.generalConfig.shortName || config.generalConfig.name || ""}}</router-link>
+      Asistentes</router-link>
     </v-toolbar-title>
     <v-spacer></v-spacer>
 

@@ -26,7 +26,7 @@
           </b>
         </p>
         <p class="google-font mt-0 mb-0" style="font-size:150%">VOZ</p>
-        <p class="google-font" style="font-size:100%">Los asistentes de voz son programas de software basados en la inteligencia
+        <p class="google-font" style="font-size:100%" >Los <strong style="font-size:200%, color: blue;">asistentes de voz</strong> son programas de software basados en la inteligencia
            artificial que son capaces de reconocer el lenguaje con una elevada precisión.</p>
         <p class="google-font" style="font-size:100%;color:#9e9e9e">
           <span v-for="(item,i) in config.generalConfig.hashtags" :key="i">
@@ -80,4 +80,6 @@ export default {
 .light-font-color {
   color: #616161;
 }
+
+
 </style>
