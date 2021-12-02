@@ -1,8 +1,8 @@
 [
     {
-        "TechName":"Angular",
-        "image":"angular.svg",
-        "link":"https://angular.io/"
+        "TechName":"Cortana",
+        "image":"Cortana.png",
+        "link":"https://cortana.uptodown.com/android"
     },
     {
         "TechName":"Google Cloud Platform",
