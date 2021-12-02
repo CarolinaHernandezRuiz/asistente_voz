@@ -5,14 +5,14 @@
         "link":"https://cortana.uptodown.com/android"
     },
     {
-        "TechName":"Google Cloud Platform",
-        "image":"gcp.svg",
+        "TechName":"Siri",
+        "image":"Siri.png",
         "link":"https://cloud.google.com/"
     },
     {
-        "TechName":"Android",
-        "image":"android.svg",
-        "link":"https://www.android.com/"
+        "TechName":"Maps",
+        "image":"maps.png",
+        "link":"https://google-maps.uptodown.com/android/descargar"
     },
     {
         "TechName":"Actions On Google",
@@ -20,13 +20,13 @@
         "link":"https://developers.google.com/actions/"
     },
     {
-        "TechName":"Firebase",
-        "image":"firebase.svg",
-        "link":"https://firebase.google.com/"
+        "TechName":"AIVC (Alice)",
+        "image":"lij.png",
+        "link":"https://aivc-lite.uptodown.com/android"
     },
     {
-        "TechName":"TensorFlow",
-        "image":"tf.svg",
-        "link":"https://www.tensorflow.org/"
+        "TechName":"Dragon Assistant",
+        "image":"run.jpg",
+        "link":"https://dragon-assistant.updatestar.com/es"
     }
 ]
