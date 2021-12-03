@@ -26,7 +26,8 @@
         <v-container fluid>
           <v-row>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
-              <v-icon large style="font-size:300%">mdi-comment</v-icon>
+              <v-icon large style="font-size:300%">mdi-account-tie-voice</v-icon>
+              
               <p class="google-font mt-2" style="font-size:130%">Tipos de asistentes</p>
                <p
                 class="google-font"
