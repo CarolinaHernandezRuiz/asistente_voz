@@ -25,24 +25,17 @@
       <v-col cols="12" md="9" lg="9" sm="8">
         <v-container fluid>
           <v-row>
-            <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
+            <v-col md="3" lg="3" sm="6" cols="6" class="text-justin pa-2">
               <v-icon large style="font-size:300%">mdi-comment</v-icon>
-              <p class="google-font mt-2"><strong style="font-size:120%; color: #008080;"> Tipos de asistentes</strong></p>
+              <p class="google-font mt-2"><strong style="font-size:120%; color: #008080;"> Caracteristicas</strong></p>
                <p class="google-font" style="font-size:95%">
-                <ul class="mt-2" >
-                        <strong style="font-size:100%; color: #000000;">
-                        <li class="google-font">(Apple).</li>
-                        <li class="google-font">Home (Google).</li>
-                        <li class="google-font">Echo o Alexa (Amazon).</li>
-                        <li class="google-font">(Windows).</li>
-                        </strong>
-                </ul>   
+                  Acontinuacion hablaremos sobre algunas Caracteristicas que tiene tener un asistente de voz.
                 </p>
-              
             </v-col>
+
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-code-tags</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Codelabs</p>
+              <p class="google-font mt-2" style="font-size:130%">Caracteristicas</p>
               <p
                 class="google-font"
                 style="font-size:95%"
@@ -58,11 +51,18 @@
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
               <v-icon large style="font-size:300%">mdi-chart-bubble</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Live Viewing Parties</p>
+              <p class="google-font mt-2" style="font-size:130%">Apps movil</p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Share knowledge in different Companies, colleges and universities</p>
+              >Hablraremos sobre apps para nuestro movil.</p>
+              <ul class="mt-2" >
+                  
+                        <li class="google-font">(Apple).</li>
+                        <li class="google-font">Home (Google).</li>
+                        <li class="google-font">Echo o Alexa (Amazon).</li>
+                        <li class="google-font">(Windows).</li>
+                </ul> 
             </v-col>
           </v-row>
         </v-container>
@@ -70,6 +70,7 @@
     </v-row>
   </v-container>
 </template>
+
 <script>
 import whatwedodata from "@/assets/data/whatwedo.json";
 export default {

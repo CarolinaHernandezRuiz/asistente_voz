@@ -25,7 +25,7 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'Eventos',
+        text: 'Caracteristicas',
         to: '/events',
         icon: 'mdi-assistant',
         meta: {
@@ -34,7 +34,7 @@ export default new Vuex.Store({
         },
       },
       {
-        text: 'Team',
+        text: 'Funciones',
         to: '/team',
         icon: 'mdi-account-settings',
         meta: {
@@ -69,15 +69,7 @@ export default new Vuex.Store({
           showBottomNav: true
         },
       },
-      {
-        text: 'Partners',
-        to: '/partners',
-        icon: 'mdi-currency-usd',
-        meta: {
-          showToolbar: false,
-          showBottomNav: false
-        },
-      },
+      
       {
         text: 'Aplicaciones',
         to: '/blogs',
