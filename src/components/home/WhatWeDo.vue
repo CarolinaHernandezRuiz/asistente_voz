@@ -26,16 +26,17 @@
         <v-container fluid>
           <v-row>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
-              <v-icon large style="font-size:300%">mdi-account-tie-voice</v-icon>
-              
-              <p class="google-font mt-2" style="font-size:130%">Tipos de asistentes</p>
-               <p
-                class="google-font"
-                style="font-size:95%">
-                (Apple).
-                Home (Google).
-                Echo o Alexa (Amazon).
-                (Windows).
+              <v-icon large style="font-size:300%">mdi-comment</v-icon>
+              <p class="google-font mt-2"><strong style="font-size:120%; color: #008080;"> Tipos de asistentes</strong></p>
+               <p class="google-font" style="font-size:95%">
+                <ul class="mt-2" >
+                        <strong style="font-size:100%; color: #000000;">
+                        <li class="google-font">(Apple).</li>
+                        <li class="google-font">Home (Google).</li>
+                        <li class="google-font">Echo o Alexa (Amazon).</li>
+                        <li class="google-font">(Windows).</li>
+                        </strong>
+                </ul>   
                 </p>
               
             </v-col>
@@ -87,3 +88,4 @@ export default {
   }
 };
 </script>
+
