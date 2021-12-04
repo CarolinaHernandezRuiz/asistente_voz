@@ -2,7 +2,7 @@
   <v-container fluid>
     <v-row align="center" justify="center">
       <v-col cols="12" md="3" lg="3" sm="4" class>
-        <p class="google-font mb-0" style="font-size:150%; color: #0000ff">QUE ES UN ASISTENTE?</p>
+        <p class="google-font mb-0" style="font-size:180%; color: #008080">QUÉ ES UN ASISTENTE?</p>
         <p
           class="google-font mt-0"
           style="font-size:100%"
@@ -10,7 +10,7 @@
         realizar una búsqueda en Internet al formular una pregunta verbalmente en un teléfono inteligente, 
         dispositivo inteligente o computadora.</p>
         
-        <span v-for="(item,i) in whatwedodata" :key="i">
+        <span v-for="(item,i) in whatwedodata"  :key="i">
           <v-tooltip bottom>
             <template v-slot:activator="{ on }">
               <a :href="item.link" target="_blank" class="ma-0 mx-3" rel="noreferrer">
@@ -25,42 +25,43 @@
       <v-col cols="12" md="9" lg="9" sm="8">
         <v-container fluid>
           <v-row>
-            <v-col md="3" lg="3" sm="6" cols="6" class="text-justin pa-2">
+            <v-col md="3" lg="3" sm="6" cols="6" class="text-leftpa-2">
               <v-icon large style="font-size:300%">mdi-comment</v-icon>
-              <p class="google-font mt-2"><strong style="font-size:120%; color: #008080;"> Caracteristicas</strong></p>
+              <p class="google-font mt-2"><strong style="font-size:130%; color: #008080;"> Caracteristicas</strong></p>
                <p class="google-font" style="font-size:95%">
-                  Acontinuacion hablaremos sobre algunas Caracteristicas que tiene tener un asistente de voz.
+                  En este apartado hablaremos sobre algunas características que tiene un asistente de voz.
                 </p>
             </v-col>
 
-            <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
+            <v-col md="3" lg="3" sm="6" cols="6" class="text-left pa-2">
               <v-icon large style="font-size:300%">mdi-code-tags</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Caracteristicas</p>
+              <p class="google-font mt-2" ><strong style="font-size:130%; color:#008080;">Funciones </strong></p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Get hands-on experience and guidance from the community members</p>
+              >En este apartaremos hablaremossobre algunas de sus funciones, así como sus ventajas y desventajas 
+               que puede tener un asistente de voz.</p>
             </v-col>
-            <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
+            <v-col md="3" lg="3" sm="6" cols="6" class="text-left pa-2">
               <v-icon large style="font-size:300%">mdi-school</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Campus Roadshows</p>
+              <p class="google-font mt-2" ><strong style="font-size:130%; color:#008080;">Sobre Nosotros</strong></p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Share knowledge in different Companies, colleges and universities</p>
+              >En este apartado conocerás más sobre nosotros, así como cual es nuestro obejtivo y que beneficios podemos ofrecerte.</p>
             </v-col>
-            <v-col md="3" lg="3" sm="6" cols="6" class="text-center pa-2">
+            <v-col md="3" lg="3" sm="6" cols="6" class="text-left pa-2">
               <v-icon large style="font-size:300%">mdi-chart-bubble</v-icon>
-              <p class="google-font mt-2" style="font-size:130%">Apps movil</p>
+              <p class="google-font mt-2" ><strong style="font-size:130%; color:#008080;">Apps Móvil</strong></p>
               <p
                 class="google-font"
                 style="font-size:95%"
-              >Hablraremos sobre apps para nuestro movil.</p>
+              >Veremos algunas apps para nuestro móvil que nos pueden ayudar como asistentes de voz.</p>
               <ul class="mt-2" >
                   
-                        <li class="google-font">(Apple).</li>
-                        <li class="google-font">Home (Google).</li>
-                        <li class="google-font">Echo o Alexa (Amazon).</li>
+                        <li class="google-font">Cortana</li>
+                        <li class="google-font">Siri</li>
+                        <li class="google-font">Google Maps</li>
                         <li class="google-font">(Windows).</li>
                 </ul> 
             </v-col>
