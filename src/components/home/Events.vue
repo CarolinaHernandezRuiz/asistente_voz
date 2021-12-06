@@ -4,22 +4,24 @@
             <v-col cols="12" md="10" lg="10" sm="12" class="text-center mb-0" >
                 <p class="google-font mb-1" style="font-weight: 350;font-size:180%">
                     <b>
-                        Our
-                        <span style="color: #1a73e8;">Events</span> 
+                        Algunas
+                        <span style="color: #1a73e8;">Caracteristicas</span> 
                         &
-                        <span style="color: #1a73e8;">Meetups</span> 
+                        <span style="color: #1a73e8;">Funciones</span> 
                     </b> 
                 </p>
                 
-                <!-- <p class="google-font mb-0" style="font-size:180%">Our Events & Meetups</p> -->
-                <p class="google-font mt-0" style="font-size:95%">At sessions that span from the technical to the visionary, let’s celebrate and discover what the technologies can enable: how product innovation, open source, and ML and AI can propel enterprises forward and solve the big problems that impact all of us.</p>
+                <p class="google-font mt-0" style="font-size:95%">En estas sesiones que van desde lo técnico 
+                    hasta lo visionario, descubrimos y descubramos lo que los asistentes de voz nos pueden ofrecer: 
+                    cómo lo beneficiar, la funcionalidad y el aprendizaje de usarlos, pueden impulsar a los usuarios 
+                    hacia adelante y resolver los grandes problemas.</p>
                 <router-link
                     to="/events"
                     text
                     color="#4C4A78"
                     class="ma-0 google-font mb-0"
                     style="border-radius:5px;text-transform: capitalize;text-decoration:none;color:#4C4A78"
-                >See More</router-link>
+                >Ver Más</router-link>
             </v-col>
             <v-col cols="12" md="12" lg="12" sm="12" class="mt-0 px-0">
                <v-container fluid class="px-2 py-0">
