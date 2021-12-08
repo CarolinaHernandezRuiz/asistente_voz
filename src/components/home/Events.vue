@@ -5,9 +5,9 @@
                 <p class="google-font mb-1" style="font-weight: 350;font-size:180%">
                     <b>
                         Algunas
-                        <span style="color: #1a73e8;">Caracteristicas</span> 
+                        <span style="color: #008080;">Caracteristicas</span> 
                         &
-                        <span style="color: #1a73e8;">Funciones</span> 
+                        <span style="color: #008080;">Funciones</span> 
                     </b> 
                 </p>
                 

@@ -26,7 +26,7 @@
         <v-container fluid>
           <v-row>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-leftpa-2">
-              <v-icon large style="font-size:300%">mdi-comment</v-icon>
+              <v-icon large style="font-size:300%"> mdi-book-multiple</v-icon>
               <p class="google-font mt-2"><strong style="font-size:130%; color: #008080;"> Caracteristicas</strong></p>
                <p class="google-font" style="font-size:95%">
                   En este apartado hablaremos sobre algunas características que tiene un asistente de voz.
@@ -34,7 +34,7 @@
             </v-col>
 
             <v-col md="3" lg="3" sm="6" cols="6" class="text-left pa-2">
-              <v-icon large style="font-size:300%">mdi-code-tags</v-icon>
+              <v-icon large style="font-size:300%"> mdi-settings</v-icon>
               <p class="google-font mt-2" ><strong style="font-size:130%; color:#008080;">Funciones </strong></p>
               <p
                 class="google-font"
@@ -43,7 +43,7 @@
                que puede tener un asistente de voz.</p>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-left pa-2">
-              <v-icon large style="font-size:300%">mdi-school</v-icon>
+              <v-icon large style="font-size:300%">mdi-account</v-icon>
               <p class="google-font mt-2" ><strong style="font-size:130%; color:#008080;">Sobre Nosotros</strong></p>
               <p
                 class="google-font"
@@ -51,7 +51,7 @@
               >En este apartado conocerás más sobre nosotros, así como cual es nuestro obejtivo y que beneficios podemos ofrecerte.</p>
             </v-col>
             <v-col md="3" lg="3" sm="6" cols="6" class="text-left pa-2">
-              <v-icon large style="font-size:300%">mdi-chart-bubble</v-icon>
+              <v-icon large style="font-size:300%"> mdi-window-open</v-icon>
               <p class="google-font mt-2" ><strong style="font-size:130%; color:#008080;">Apps Móvil</strong></p>
               <p
                 class="google-font"
