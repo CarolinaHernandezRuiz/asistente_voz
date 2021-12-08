@@ -1,7 +1,7 @@
 <template>
   <v-container fluid class="mb-1">
     <v-row align="center" justify="center" class>
-      <v-col cols="12" md="12" lg="12" sm="12" class="mb-0">
+      <v-col cols="12" md="12" lg="12" sm="12" class="text-center mb-0">
         <p class="google-font mb-0 mt-0" style="font-weight: 350;font-size:180%">
           <b>
             Our
@@ -55,61 +55,7 @@
   </v-container>
 </template>
 
-<script>
-import service from "@/services/appservices";
-export default {
-  name: "App",
-  inject: ["theme"],
-  components: {
-    featureEventCard: () => import("@/components/home/FeatureEventCard")
-  },
-  data: () => ({
-    loading: true,
-    notFound: false,
-    FeaturesEventID: [],
-    AllCustomEvents: [],
-    eData: [],
-    featureEvendsData:[]
-  }),
-  mounted() {
-    this.getFeaturesEventID();
-  },
-  methods: {
-    getAllCustomEvents() {
-      this.featureEvendsData = []
-      service.getAllCustomEvents().then(res => {
-        if (res.success) {
-          this.loading = false;
-          this.AllCustomEvents = res.data;
 
-          this.FeaturesEventID.map(res=>{
-            this.AllCustomEvents.map(obj=>{
-              if(obj.id == res){
-                  this.featureEvendsData.push(obj)
-              }
-            })
-          })
-        }
-      });
-    },
-
-    getFeaturesEventID() {
-      this.loading = true;
-      service.getFeaturesEvents().then(res => {
-        if (res.success) {
-          this.notFound = false;
-          this.FeaturesEventID = res.data;
-          if (this.FeaturesEventID.length > 0) this.getAllCustomEvents();
-          else{ this.notFound = true; this.loading = false;}
-        } else {
-          this.notFound = true;
-          this.loading = false;
-        }
-      });
-    }
-  }
-};
-</script>
 
 <style scoped>
 .lightModeCardFeatureEvent {

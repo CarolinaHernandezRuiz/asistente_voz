@@ -23,7 +23,7 @@
                       <v-col cols="12" class="text-center pa-2">
                         <v-avatar size="100">
                           <v-img
-                            :src="checkExistance(speaker.image,0)?speaker.image:require('@/assets/img/dontremove/profile.jpg')"
+                            :src="checkExistance(speaker.image,0)?speaker.image:require('@/assets/img/dontremove/iuy.jpeg')"
                             style="border-style: solid;border-width: 5px;"
                             :style="{'border-color':this.$vuetify.theme.dark?'#424242':'white'}"
                           >
