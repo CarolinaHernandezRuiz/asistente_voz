@@ -1,19 +1,25 @@
 <template>
   <v-container fluid class="mb-1">
     <v-row align="center" justify="center" class>
-      <v-col cols="12" md="12" lg="12" sm="12" class="text-center mb-0">
-        <p class="google-font mb-0 mt-0" style="font-weight: 350;font-size:180%">
+      <v-col cols="12" md="10" lg="10" sm="12" class="text-center mb-0">
+        <p class="google-font mb-1" style="font-weight: 350;font-size:180%">
           <b>
-            Our
-            <span style="color: #1a73e8;">Feature Event</span>
+            Las 
+            <span style="color: #008080;">Ventajas </span>
             &
-            <span style="color: #1a73e8;">Meetup</span>
+            <span style="color: #008080;">Desventajas</span>
           </b>
         </p>
-        <p
-          class="google-font mt-0 mb-0"
-          style="font-size:95%"
-        >Events are listed in reverse chronological order by date.</p>
+        <p class="google-font mt-0" style="font-size:95%">Hoy en día existen todo tipo de asistente de voz en español por lo que 
+        puedes escoger entre multitud de modelos en función de tus necesidades. 
+        Conoce todas las ventajas y desventajas de este tipo de dispositivos. En esta sección veremos algunas de ellas.</p>
+        <router-link
+                    to="/team"
+                    text
+                    color="#4C4A78"
+                    class="ma-0 google-font mb-0"
+                    style="border-radius:5px;text-transform: capitalize;text-decoration:none;color:#4C4A78"
+                >Ver Más</router-link>
       </v-col>
       <v-col cols="12" md="12" lg="12" sm="12" class="mt-0 pt-0 pa-0">
         <v-container fluid class="py-0 my-0">

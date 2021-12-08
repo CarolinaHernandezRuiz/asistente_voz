@@ -15,6 +15,7 @@
                     hasta lo visionario, descubrimos y descubramos lo que los asistentes de voz nos pueden ofrecer: 
                     cómo lo beneficiar, la funcionalidad y el aprendizaje de usarlos, pueden impulsar a los usuarios 
                     hacia adelante y resolver los grandes problemas.</p>
+                    
                 <router-link
                     to="/events"
                     text
