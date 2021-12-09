@@ -41,21 +41,7 @@
           </v-col>
         </v-row>
 
-        <v-row v-if="notFoundUpcomingEventFlag" class="pa-2">
-          <v-col
-            md="3"
-            lg="3"
-            sm="6"
-            cols="12"
-            class="pa-3"
-            :class="$vuetify.theme.dark == true?'darkModeCard':'card-light'"
-          >
-            <p class="google-font px-2 mb-0" style="font-size:140%">
-              <v-icon>mdi-calendar-blank</v-icon>
-              <br />No Upcoming Events!
-            </p>
-          </v-col>
-        </v-row>
+        
       </v-col>
     </v-row>
   </v-container>

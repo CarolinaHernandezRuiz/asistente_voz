@@ -13,38 +13,9 @@
                         <p class="google-font mt-0 mb-0" style="font-size:95%">Events are listed in reverse chronological order by date.</p>
                     </v-col>
                     <v-col md="6" lg="6" sm="6" cols="12">
-                        <v-text-field
-                            flat
-                            v-model="search"
-                            solo-inverted
-                            hide-details
-                            prepend-inner-icon="mdi-search-web"
-                            label="Search"
-                            single-line
-                        ></v-text-field>
+                        
                     </v-col>
-                
                 </v-row>
-                
-                    
-                <v-data-table
-                    class="mt-3"
-                    :search="search"
-                    mobile-breakpoint="no"
-                    :headers="headers"
-                    :items="eventsData"
-                    :loading="isLoading"
-                    :items-per-page="5"
-                    :class="$vuetify.theme.dark == true?'darkModeCard':'card-light'"
-                >   
-                    <template v-slot:item.name="{ item }">
-                        {{item.name}}
-                    </template>
-
-                    <template v-slot:item.link="{ item }">
-                        <a :href="item.link" target="_blank">See More</a>
-                    </template>
-                </v-data-table>
             </v-col>
         </v-row>
     </v-container>
