@@ -5,9 +5,9 @@
         <p
           class="google-font mb-1"
           style="font-size:110%"
-        >Our events are open to newbies, developers, managers, and organizations who are interested in Google's technologies or use them as part of their projects.</p>
-        <p class="google-font">{{data.shortDescription}}</p>
-        <p class="google-font mt-5">Questions? Please contact {{data.email}}</p>
+        >Recuerda que puedes contactarnos a través de nuestras redes sociales</p>
+        <p class="google-font">Estamos comprometidos con tu bienestar, por lo tanto es necesario saber como te sientes navegando en nuestro ditio web. Haremos lo posible por llenar tus espectativas.</p>
+        <p class="google-font mt-5">Si tienes preguntas, o aportaciones contactanos a través de nuestro correo eléctronico.</p>
         <CommunitySocialInfo :config="config"  class="mb-2"/>
         <span v-for="(item,i) in data.hashtags" :key="i" >
           <v-chip

@@ -117,6 +117,6 @@ export default {
     color:white
   } 
   .blackText{
-    color: rgba(0,0,0,.87);
+    color: rgba(5, 106, 238, 0.87);
   } 
 </style>
